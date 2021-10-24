@@ -1,12 +1,47 @@
 html {
   background-color: #0f1229;
+  text-align: center;
 }
 
-h1, h2 {
+.main-div {
+  border: 2px solid purple;
+  margin-right: 47%;
+  overflow: hidden;
+}
+
+img {
+  float: right;
+}
+
+h1 {
+  color: white;
+}
+
+h2 {
   color: white;
 }
 
 
 p {
   color: #a9a9a9;
+}
+
+.bottom-numbers {
+  border: 1px solid lightblue;
+  overflow: hidden;
+}
+
+.ten-k {
+  border: 1px solid blue;
+  margin: 0 80% 0 0;
+}
+
+.three-fourteen {
+  border: 1px dashed blue;
+  margin: 0 40% 0 40%;
+}
+
+.twelve-mill {
+  border: 1px solid blue;
+  margin: 0 0 0 80%;
 }
