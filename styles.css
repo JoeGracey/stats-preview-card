@@ -1,3 +1,12 @@
 html {
-  background-color: grey;
+  background-color: #0f1229;
+}
+
+h1, h2 {
+  color: white;
+}
+
+
+p {
+  color: #a9a9a9;
 }
