@@ -3,16 +3,23 @@ html {
   text-align: center;
 }
 
-.text-div {
-  margin: 5% 52% 0 5%;
+.main-div {
+  border: 1px solid blue;
   overflow: hidden;
   background-color: #351c75;
+  border-radius: 5px;
+  margin: 5%;
+}
+
+.text-div {
+  margin: 5% 60% 0 5%;
+  overflow: hidden;
 }
 
 .image {
   float: right;
   margin-top: -50px;
-  outline: 225px solid rgba(103, 78, 167, 0.5) !important;
+  outline: 225px solid rgba(103, 78, 167, 0.5);
   outline-offset: -225px;
 }
 
@@ -24,28 +31,41 @@ h2 {
   color: white;
 }
 
-
 p {
-  color: #a9a9a9;
+  color: #999;
+}
+
+span {
+  color: #8e7cc3;
 }
 
 .bottom-numbers {
-  margin-top: 50px;
   overflow: hidden;
-  background-color: #351c75;
 }
 
 .ten-k {
-  margin-left: 8%;
+  margin-left: 10%;
   float: left;
 }
 
 .three-fourteen {
-  margin-left: 15%;
+  margin-left: 10%;
   float: left;
 }
 
 .twelve-mill {
   float: left;
-  margin-left: 15%;
+  margin-left: 10%;
+}
+
+.companies {
+  margin-top: -15px;
+}
+
+.templates {
+  margin-top: -15px;
+}
+
+.queries {
+  margin-top: -15px;
 }
