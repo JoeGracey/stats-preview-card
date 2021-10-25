@@ -4,7 +4,6 @@ html {
 }
 
 .main-div {
-  border: 1px solid blue;
   overflow: hidden;
   background-color: #351c75;
   border-radius: 5px;
@@ -12,7 +11,7 @@ html {
 }
 
 .text-div {
-  margin: 5% 60% 0 5%;
+  margin: 3% 60% 0 5%;
   overflow: hidden;
 }
 
@@ -25,10 +24,18 @@ html {
 
 h1 {
   color: white;
+  font-size: 225%;
+  font-family: sans-serif;
 }
 
 h2 {
   color: white;
+  text-align: left;
+}
+
+.par {
+  line-height: 1.5;
+  text-align: left;
 }
 
 p {
@@ -46,26 +53,35 @@ span {
 .ten-k {
   margin-left: 10%;
   float: left;
+  margin-top: 10px;
 }
 
 .three-fourteen {
   margin-left: 10%;
   float: left;
+  margin-top: 10px;
 }
 
 .twelve-mill {
   float: left;
   margin-left: 10%;
+  margin-top: 10px;
 }
 
 .companies {
   margin-top: -15px;
+  text-align: left;
+  font-size: 75%;
 }
 
 .templates {
   margin-top: -15px;
+  text-align: left;
+  font-size: 75%;
 }
 
 .queries {
   margin-top: -15px;
+  text-align: left;
+  font-size: 75%;
 }
