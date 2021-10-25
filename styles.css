@@ -3,14 +3,17 @@ html {
   text-align: center;
 }
 
-.main-div {
-  border: 2px solid purple;
-  margin-right: 47%;
+.text-div {
+  margin: 5% 52% 0 5%;
   overflow: hidden;
+  background-color: #351c75;
 }
 
-img {
+.image {
   float: right;
+  margin-top: -50px;
+  outline: 225px solid rgba(103, 78, 167, 0.5) !important;
+  outline-offset: -225px;
 }
 
 h1 {
@@ -27,18 +30,17 @@ p {
 }
 
 .bottom-numbers {
-  border: 1px solid lightblue;
+  margin-top: 50px;
   overflow: hidden;
+  background-color: #351c75;
 }
 
 .ten-k {
-  border: 2px solid blue;
   margin-left: 8%;
   float: left;
 }
 
 .three-fourteen {
-  border: 2px solid green;
   margin-left: 15%;
   float: left;
 }
@@ -46,5 +48,4 @@ p {
 .twelve-mill {
   float: left;
   margin-left: 15%;
-  border: 2px solid orange;
 }
