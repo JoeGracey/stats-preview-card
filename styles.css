@@ -32,16 +32,19 @@ p {
 }
 
 .ten-k {
-  border: 1px solid blue;
-  margin: 0 80% 0 0;
+  border: 2px solid blue;
+  margin-left: 8%;
+  float: left;
 }
 
 .three-fourteen {
-  border: 1px dashed blue;
-  margin: 0 40% 0 40%;
+  border: 2px solid green;
+  margin-left: 15%;
+  float: left;
 }
 
 .twelve-mill {
-  border: 1px solid blue;
-  margin: 0 0 0 80%;
+  float: left;
+  margin-left: 15%;
+  border: 2px solid orange;
 }
